@@ -1,0 +1,94 @@
+<manifest alg="2" build="5" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="60984225"/>
+    <file name="master_a-stramien.css" crc="3871237635" ref="index"/>
+    <file name="index.css" crc="323857646" ref="index"/>
+    <file name="iefonts_index.css" crc="4081101305" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3828297711" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="3880880085" ref="phone>index:tablet>index:index"/>
+    <file name="webpro.js" crc="33264525" ref="phone>index:tablet>index:index"/>
+    <file name="musewpslideshow.js" crc="272207905" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.museoverlay.js" crc="466079611" ref="phone>index:tablet>index:index"/>
+    <file name="touchswipe.js" crc="261777990" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.scrolleffects.js" crc="56249048" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.tobrowserwidth.js" crc="152985095" ref="phone>index:tablet>index:index"/>
+    <file name="form_check.php" crc="39676790" ref="phone>index:tablet>index:index"/>
+    <file name="form_throttle.php" crc="4202036461" ref="phone>index:tablet>index:index"/>
+    <file name="form-u2274.php" crc="4242593806" ref="phone>index"/>
+    <file name="jquery.watch.js" crc="4199601726" ref="phone>index:tablet>index:index"/>
+    <file name="pie.js" crc="4147615982" ref="tablet>index:index"/>
+    <file name="form-u1510.php" crc="254948192" ref="tablet>index"/>
+    <file name="museredirect.js" crc="299715755" ref="index"/>
+    <file name="form-u799.php" crc="413825301" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="634x634.gif" crc="442100867" ref="phone>index"/>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:tablet>index:index"/>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:tablet>index:index"/>
+    <file name="pattern1-u1735-fr.png" crc="4152019238" ref="phone>index"/>
+    <file name="361x285.gif" crc="4115031746" ref="phone>index"/>
+    <file name="camera.png" crc="322493050" ref="phone>index:tablet>index:index"/>
+    <file name="imac.png" crc="254758422" ref="phone>index:tablet>index:index"/>
+    <file name="customize.png" crc="3845987940" ref="phone>index:tablet>index:index"/>
+    <file name="pencil.png" crc="229443679" ref="phone>index:tablet>index:index"/>
+    <file name="support.png" crc="96656216" ref="phone>index:tablet>index:index"/>
+    <file name="print.png" crc="3881919976" ref="phone>index:tablet>index:index"/>
+    <file name="361x242.gif" crc="116256821" ref="phone>index"/>
+    <file name="251x251.gif" crc="468756009" ref="phone>index:index"/>
+    <file name="phonesmall.png" crc="3968484201" ref="phone>index:tablet>index:index"/>
+    <file name="mailsmallblack.png" crc="4042160510" ref="phone>index:tablet>index:index"/>
+    <file name="mapsmallblack.png" crc="465708211" ref="phone>index:tablet>index:index"/>
+    <file name="u2299-17.png" crc="3892801297" ref="phone>index"/>
+    <file name="u2299-17-r.png" crc="3931216338" ref="phone>index"/>
+    <file name="u2299-17-m.png" crc="3931216338" ref="phone>index"/>
+    <file name="u2299-17-fs.png" crc="4259855316" ref="phone>index"/>
+    <file name="mapsmall.png" crc="74341599" ref="phone>index:tablet>index:index"/>
+    <file name="mailsmall.png" crc="4110045819" ref="phone>index:tablet>index:index"/>
+    <file name="phonesmall2.png" crc="4125474332" ref="phone>index:tablet>index:index"/>
+    <file name="facebook.png" crc="3877302858" ref="phone>index:tablet>index:index"/>
+    <file name="tumbler.png" crc="3887870829" ref="phone>index:tablet>index:index"/>
+    <file name="behance.png" crc="341148370" ref="phone>index:tablet>index:index"/>
+    <file name="vimeo.png" crc="37096298" ref="phone>index:tablet>index:index"/>
+    <file name="twitter.png" crc="4181552246" ref="phone>index:tablet>index:index"/>
+    <file name="deviantart.png" crc="4068894316" ref="phone>index:tablet>index:index"/>
+    <file name="dribble.png" crc="4057717057" ref="phone>index:tablet>index:index"/>
+    <file name="1090x734.gif" crc="248127498" ref="tablet>index"/>
+    <file name="pattern1-u1243-fr.png" crc="4152019238" ref="tablet>index"/>
+    <file name="237x186.gif" crc="27717462" ref="tablet>index"/>
+    <file name="693x462.gif" crc="270107698" ref="tablet>index"/>
+    <file name="351x236.gif" crc="4071511126" ref="tablet>index"/>
+    <file name="178x178.gif" crc="160224926" ref="tablet>index"/>
+    <file name="u1522-17.png" crc="3892801297" ref="tablet>index"/>
+    <file name="u1522-17-r.png" crc="3931216338" ref="tablet>index"/>
+    <file name="u1522-17-m.png" crc="3931216338" ref="tablet>index"/>
+    <file name="u1522-17-fs.png" crc="4259855316" ref="tablet>index"/>
+    <file name="2100x1000.gif" crc="3809128494" ref="index"/>
+    <file name="pattern1-u921-fr.png" crc="4152019238" ref="index"/>
+    <file name="251x199.gif" crc="4145572432" ref="index"/>
+    <file name="831x591.gif" crc="498656319" ref="index"/>
+    <file name="503x338.gif" crc="433912897" ref="index"/>
+    <file name="u813-17.png" crc="3824730360" ref="index"/>
+    <file name="u813-17-r.png" crc="95667210" ref="index"/>
+    <file name="u813-17-m.png" crc="95667210" ref="index"/>
+    <file name="u813-17-fs.png" crc="393889282" ref="index"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="master_a-stramien.css" crc="4116614325" ref="tablet>index"/>
+      <file name="index.css" crc="70461359" ref="tablet>index"/>
+      <file name="iefonts_index.css" crc="3769958648" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="4169768676" mt="1399555770871" redirect="true"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-stramien.css" crc="94683737" ref="phone>index"/>
+      <file name="index.css" crc="286633654" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="512506022" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="270823315" mt="1399555769104" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="4291335843" mt="1399555772384" redirect="true"/>
+</manifest>
