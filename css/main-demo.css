@@ -854,6 +854,14 @@ p {
   }
 }
 
+.mobile {
+  display:none;
+}
+
+.display {
+  display:block;
+}
+
 /* ------------------------------------------------*/
 /* Buttons & Triggers Styles End */
 /* ------------------------------------------------*/
@@ -874,6 +882,13 @@ p {
 @media only screen and (min-width: 768px) {
   .intro {
     padding-bottom: 0px;
+  }
+
+  .mobile {
+    display:block;
+  }
+  .display {
+    display:none;
   }
 }
 
@@ -899,6 +914,10 @@ p {
 }
 @media only screen and (min-width: 768px) {
   .intro__header {
+    padding: 6rem 0 0 0;
+  }
+
+  body {
     padding: 6rem 0 0 0;
   }
 }
