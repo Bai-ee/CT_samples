@@ -1055,7 +1055,7 @@ p {
 .links__image_main {
   display: block;
   position: relative;
-  padding: 2rem;
+  /* padding: 2rem; */
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
