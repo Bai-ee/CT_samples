@@ -56,12 +56,18 @@
 /* Loader Styles Start */
 /* ------------------------------------------------*/
 
+
+
+
+
+
 .tags {
   list-style: none;
   margin: 0;
   overflow: hidden; 
   padding: 0;
 }
+
 
 .tags li {
   float: left; 
@@ -117,6 +123,10 @@
 .tag:hover::after {
    /* border-left-color: crimson;  */
 }
+
+
+
+
 
 
 .loader {
@@ -1023,6 +1033,16 @@ p {
   }
 }
 
+.links__image_main {
+  display: block;
+  position: relative;
+  padding: 2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .links__image {
   display: block;
   position: relative;
@@ -1167,3 +1187,5 @@ p {
 /* ------------------------------------------------*/
 /* Footer Styles End */
 /* ------------------------------------------------*/
+
+
