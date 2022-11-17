@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="bottomArrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 48" style="enable-background:new 0 0 120 48;" xml:space="preserve">
+  <title>f1_arrowBottom</title>
+<g id="f1_arrowBottom">		 
+  <path id="downArrow2" d="M534.5,58h-102a2,2,0,0,0-2,2V90.5a2,2,0,0,0,2,2h46.33l1.27,2.92L484.73,106l4.63-10.62,1.27-2.92H534.5a2,2,0,0,0,2-2V60A2,2,0,0,0,534.5,58Z" transform="translate(-416.76 -58)" fill="#2d6566"/>
+  <path id="leftArrow2" d="M534.5,58h-102a2,2,0,0,0-2,2v8.63L427.38,70l-10.62,4.63,10.62,4.63,3.12,1.36V90.5a2,2,0,0,0,2,2h102a2,2,0,0,0,2-2V60A2,2,0,0,0,534.5,58Z" transform="translate(-416.76 -58)" fill="#2d6566"/>
+</g>
+</svg>

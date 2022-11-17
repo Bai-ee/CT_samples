@@ -52,6 +52,9 @@
     <meta name="msapplication-navbutton-color" content="#0e0d26">
     <meta name="apple-mobile-web-app-status-bar-style" content="#0e0d26">
     <!-- Custom Browser Color End -->
+
+    <!-- <script src="js/demo/demo.js"></script> -->
+
   </head>
 
   <body>
@@ -122,10 +125,6 @@ Creative Technologist<br>
                     justify-content: center;
                 ">
                       <div class="header__buttons d-xl-flex justify-content-xl-end">
-                        <!-- <a class="btn btn-light-outline scroll-to-preview hover-white hover-white-s" href="#live-preview">
-                          <em></em>
-                          <span class="btn-caption">View Demos</span>
-                        </a> -->
                         <a class="btn btn-light btn-light-s hover-gradient hover-gradient-s" href="https://calendly.com/bai-ee/30min?month=2022-10" target="_blank">
                           <em></em>
                           <span class="btn-caption">Calendly</span>
@@ -155,62 +154,115 @@ Creative Technologist<br>
     <!-- Live Preview Links Start -->
     <div id="live-preview" class="demo first-section">
 
-      <div class="demo__links">
-        <div class="container-fluid px-4">
 
-            <!-- <div class="">
-              <figure class="links__item right">
-                <a class="block-rounded-l" href="index-countdown-image.html" target="_blank">
-                  <div class="image-container block-rounded-m">
-                    <img src="img/demo/screens/2013.png" alt="Marvio Coming Soon Template Preview Screen">
-                  </div>
-                </a>
-              </figure>
-            </div>
-          </div> -->
+      <div class="demo__links">
+
+        <div class="container-fluid px-4">
 
           <div class="row gx-5">
             <div class="col-12 col-xl-6">
               <figure class="links__item">
                 <div class="modalActivate">
-                  <a class="links__image block-rounded-l" href="index_edittrax_dapp.html" target="_self">
-                  <div class="image-container block-rounded-m">
-                    <img src="img/demo/screens/1.png" alt="Bryan Balli | Creative Technologist">
+                  <div id="content" class="image-container block-rounded-m">
+                    <div class="col">
+                      <iframe id="wags" width="320" height="480" src="mobile_wags_320x480/index.html" loading="lazy"></iframe>
+                      <h1 style="margin-top:40px">Vertical Slider</h1>
+                      <p class="description__text" style="display: flex;justify-content: center;">                     
+                        Walgreens
+                      </p>
+                      <button id="wagsClick" class="btn btn-light btn-light-s hover-gradient hover-gradient-s">Reload</button>
                   </div>
-                </a>
+                </div>
               </div>
-                <!-- <div class="caption">
-                  <ul class="tags">
-                    <li class="tag">BEACON SDK</li>
-                    <li class="tag">FIGMA</li>
-                    <li class="tag">REACT</li>
-                    <li class="tag">HTML</li>
-                    <li class="tag">CSS</li>
-                    <li class="tag">JS</li>
-                    <li class="tag">IPFS</li>
-                  </ul>
-                </div> -->
-              </figure>
-            </div>
+             </figure>
+          </div>
+
+          <div class="col-12 col-xl-6">
+            <figure class="links__item right">
+              <div class="modalActivate">
+                <div id="content" class="image-container block-rounded-m">
+                  <div class="col">
+                    <iframe id="loft" width="320" height="480" src="bin_CT_loft/direct.html?id=320x480" loading="lazy"></iframe>
+                    <h1 style="margin-top:40px">Vertical Slider</h1>
+                    <p class="description__text" style="display: flex;justify-content: center;">                     
+                      Loft
+                    </p>
+                    <button id="loftClick" class="btn btn-light btn-light-s hover-gradient hover-gradient-s">Reload</button>
+                </div>
+              </div>
+            </figure>
+          </div>
+          
+
+        </div>
+
+        <div class="container-fluid px-4">
+
+          <div class="row gx-5">
             <div class="col-12 col-xl-6">
-              <figure class="links__item right">
-                <a class="links__image block-rounded-l" href="index_edittrax_nft.html" target="_self">
-                  <div class="image-container block-rounded-m">
-                    <img src="img/demo/screens/2.png" alt="Bryan Balli | Creative Technologist">
+              <figure class="links__item">
+                <div class="modalActivate">
+                  <div id="content" class="image-container block-rounded-m">
+                    <div class="col">
+                      <iframe id="evian" width="320" height="480" src="151428OPS_mobile_evian_320x480/index.html" loading="lazy"></iframe>
+                      <h1 style="margin-top:40px">Animated Banner</h1>
+                      <p class="description__text" style="display: flex;justify-content: center;">                     
+                        Evian
+                      </p>
+                      <button id="evianClick" class="btn btn-light btn-light-s hover-gradient hover-gradient-s">Reload</button>
                   </div>
-                </a>
-                <!-- <div class="caption">
-                  <ul class="tags">
-                    <li class="tag">TONE JS</li>
-                    <li class="tag">GREENSOCK JS</li>
-                    <li class="tag">FIGMA</li>
-                    <li class="tag">HTML</li>
-                    <li class="tag">CSS</li>
-                    <li class="tag">JS</li>
-                  </ul>
-                </div> -->
+                </div>
+              </div>
+             </figure>
+          </div>
+
+          <div class="col-12 col-xl-6">
+            <figure class="links__item right">
+              <div class="modalActivate">
+                <div id="content" class="image-container block-rounded-m">
+                  <div class="col">
+                    <iframe id="omaha" width="320" height="500" src="mobile_visitomaha_320x480/index.html" loading="lazy"></iframe>
+                      <h1 style="margin-top:40px">Vertical Slider</h1>
+                      <p class="description__text" style="display: flex;justify-content: center;">                     
+                        Visit Omaha
+                      </p>
+                      <button id="omahaClick" class="btn btn-light btn-light-s hover-gradient hover-gradient-s">Reload</button>
+                </div>
+              </div>
+            </figure>
+          </div>
+          
+
+        </div>
+
+        <div class="container-fluid px-4">
+
+          <div class="row gx-5">
+            <div class="col-12">
+              <figure class="links__item">
+                <div class="modalActivate">
+                  <div id="content" class="image-container block-rounded-m">
+                    <div class="">
+                      <iframe id="space" width="970" height="280" src="bin_CT_space/mojo_970x250_3.html" loading="lazy"></iframe>
+                      <h1 style="margin-top:40px">New Ad Units</h1>
+                      <p class="description__text" style="display: flex;justify-content: center;">                     
+                        Conversant (view on Desktop)
+                      </p>
+                      <button id="spaceClick" class="btn btn-light btn-light-s hover-gradient hover-gradient-s">Reload</button>
+                  </div>
+                </div>
+              </div>
               </figure>
-            </div>
+          </div>
+  
+        </div>
+
+      
+        
+
+
+
+            
           </div>
 
           <div class="row gx-5">
@@ -218,7 +270,7 @@ Creative Technologist<br>
               <figure class="links__item left">
                 <a class="links__image block-rounded-l" href="index_dropolis.html" target="_self">
                   <div class="image-container block-rounded-m">
-                    <img src="img/demo/screens/3.png" alt="Bryan Balli | Creative Technologist">
+                    <img loading="lazy" src="img/demo/screens/3.png" alt="Bryan Balli | Creative Technologist">
                   </div>
                 </a>
                 <!-- <div class="caption">
@@ -232,7 +284,7 @@ Creative Technologist<br>
               <figure class="links__item right">
                 <a class="links__image block-rounded-l" href="index_scary_gary.html" target="_self">
                   <div class="image-container block-rounded-m">
-                    <img src="img/demo/screens/4.png" alt="Bryan Balli | Creative Technologist">
+                    <img loading="lazy" src="img/demo/screens/4.png" alt="Bryan Balli | Creative Technologist">
                   </div>
                 </a>
                 <!-- <div class="caption">
@@ -426,6 +478,16 @@ Creative Technologist<br>
       </svg>
     </a>
     <!-- To Top Button End -->
+
+    <script>
+
+
+  console.log("WORKING")
+
+
+    </script> 
+
+
 
     <!-- Load Scripts Start -->
     <script src="js/demo/jquery.min.js"></script>

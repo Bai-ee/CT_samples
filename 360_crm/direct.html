@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript">
+        (function (d) {
+            var setDefault = false, defaultDomain = "dotomi.com";
+            if (d) {
+                if (d.indexOf("www.") > -1) { d = d.substring(4);}
+                if (d.indexOf(".") > -1) {
+                    while (d.indexOf(".") !== d.lastIndexOf(".")) {
+                        d = d.substring(d.indexOf(".") + 1);
+                    }
+                    if (d.length < 3) {setDefault = true;}
+                } else {setDefault = true;}
+            } else { setDefault = true;}
+            if (setDefault === true) { d = defaultDomain;}
+            try { document.domain = d;} catch (e) {}
+        })(location.hostname);
+
+
+        var CNVR = (function () {
+            var bannerID = gup("bannerID");
+            if (bannerID === ""){
+                bannerID = gup("id");
+            }
+            function gup(name) {
+                name = name.replace(/[[]/, "\[").replace(/[]]/, "\]");
+                var regexS = "[\?&]" + name + "=([^&#]*)";
+                var regex = new RegExp(regexS);
+                var results = regex.exec(window.location.href);
+                if (results === null) {
+                    return "";
+                } else {
+                    return results[1];
+                }
+            }
+
+            var obj = {};
+            var found = false;
+            if (bannerID.indexOf("x") > -1) {
+                var arr = bannerID.split("x");
+                if (arr.length > 1) {
+                    obj.w = arr[0];
+                    obj.h = arr[1];
+                    obj.id = bannerID;
+                    found = true;
+                }
+            }
+            if (found === false) {
+                obj = {w: 0, h: 0, id: null}
+            }
+            return obj;
+        })();
+        CNVR.flashVars = "";
+        CNVR.flashVars = (function () {
+			var arr = [];
+			var loc = location.href;
+			if (loc.indexOf("cfs") > -1 || loc.indexOf("opslocal") >-1){
+				loc = loc.substring(0, loc.lastIndexOf("/"));
+				arr.push({name: "company_id", value: loc});
+			}
+			arr.push({name: "force_retina", value: "false&320x480=true&320x50=true"});
+			arr.push({name: "base_url", value: ""});
+			/* START VARS */
+            arr.push({name: "f1_cta1_img", value: 'f1_cta1_img_cropped.png'});
+            arr.push({name: "f1_cta2_img", value: 'f1_cta2_img.png'});
+            arr.push({name: "f1_gradient1_img", value: 'f1_gradient1_img.png'});
+            arr.push({name: "f1_gradient2_img", value: 'f1_gradient2_img.png'});
+            arr.push({name: "f1_headline_img", value: 'f1_headline_img.png'});
+            arr.push({name: "f1_lifestyle_img", value: 'f1_lifestyle_img.png'});
+            arr.push({name: "f1_pre_headline_img", value: 'f1_pre_headline_img.png'});
+            arr.push({name: "f2_360_img", value: 'f2_360_img.png'});
+            arr.push({name: "f2_back_img", value: 'f2_back_img.png'});
+            arr.push({name: "f2_cta_img", value: 'f2_cta_img_2.png'});
+            arr.push({name: "f2_gradient1_img", value: 'f2_gradient1_img.png'});
+            arr.push({name: "f2_gradient2_img", value: 'f2_gradient2_img.png'});
+            //arr.push({name: "f2_hotspot_off_img", value: 'f2_hotspot_off_img.png'});
+            arr.push({name: "f2_more_info_img_1", value: 'hotspot_android.png'});
+            arr.push({name: "f2_more_info_img_2", value: 'hotspot_safety.png'});
+            arr.push({name: "f2_more_info_img_3", value: 'hotspot_passenger.png'});
+            arr.push({name: "f2_more_info_img_4", value: 'hotspot_seats.png'});
+            arr.push({name: "f2_more_info_img_5", value: 'hotspot_climate.png'});
+            arr.push({name: "icon_img", value: 'icon_img.png'});
+            arr.push({name: "loading_img", value: 'loading_img_3.png'});
+            arr.push({name: "logo_img", value: 'logo_img.png'});
+            arr.push({name: "logo_img2", value: 'logo_img.png'});
+            arr.push({name: "logo_line_color", value: 'logo_line_color2.png'});
+            arr.push({name: "logo_line_color2", value: 'logo_line_color2.png'});
+            arr.push({name: "f2_360_img_lrg", value: '360_img_2.png'});
+
+
+
+            /* END VARS */
+			var tmp = "";
+			for (var i = 0; i < arr.length; i++) {
+				tmp = tmp + arr[i].name + "=" + encodeURIComponent(arr[i].value).replace(/'/g, "%27").replace(/"/g, "%22");
+				if (i + 1 < arr.length) {
+					tmp = tmp + "&amp;"
+			}	
+			}
+			if (tmp !== "") {
+				tmp = "&amp;" + tmp;
+			}
+			return tmp;
+			})();
+    </script>
+    <link rel="stylesheet" href="pannellum_2.css">
+</head>
+<body bgcolor="#FFFFFF" style="margin:0;padding:0">
+<div id="CNVR_call" style="">
+    <script src="https://s-usweb.dotomi.com/renderer/ogo.js" type="text/javascript"></script>
+    <script id="CNVR_script_call" type="text/javascript">
+        if (CNVR.id){
+            _$OGO$_.embed(
+                {
+                    "mediaWidth": CNVR.w,
+                    "mediaHeight": CNVR.h,
+                    "objectSrc": "crm_" + CNVR.w + "x" + CNVR.h + ".js"/* [INSERT_DEV_BYPASS_CACHE] */,
+                    "externalURL": "https://s-usweb.dotomi.com/renderer",
+                    "olickURL": ["http%3A%2F%2Fwww.dotomi.com%2F"],
+                    "eventURL": "http://usweb.dotomi.com/images/0/space.gif",
+                    "flashVars": "dtm_source=banner&amp;dtm_width=" + CNVR.w + "&amp;dtm_height=" + CNVR.h + CNVR.flashVars, 
+					'atomSuffix':'&minify=0&minified=true&ts=' + (new Date()).valueOf(),
+					'spDebug': true,
+                    "viewNotify": "",
+                    "embedId": "CNVR",
+                    "device_id": "",
+                    "impNotify": "",
+                    "clickable": false,
+                    "menuURL": "",//http://usweb.dotomi.com/adinfo/adinfo_test.php?cid=2000&ms=" + ms + "&fpctok=&fpcdom=",
+                    "viewability_pixel": ""
+                }
+            );
+        } else {
+            (function(){
+                var sizes = ["160x600", "300x250", "300x600", "320x50", "320x480", "468x60", "728x90"];
+                var wrapper = document.getElementById("CNVR_call");
+                wrapper.style.padding = "5px";
+                wrapper.style.fontFamily = "Arial";
+                for (var i=0; i<sizes.length; i++){
+                    var div = document.createElement("div");
+                    div.textContent = sizes[i];
+                    div.style.padding = "5px 0px";
+                    div.style.cursor = "pointer";
+                    wrapper.appendChild(div);
+                    div.addEventListener("click", (function(id) {
+                                return function(e){
+                                    window.location.href=window.location.href +"?id=" +id;
+                                }
+                            })(sizes[i])
+                    )
+                }
+            })();
+        }
+    </script>
+</div>
+</body>

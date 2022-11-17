@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="topArrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 48" style="enable-background:new 0 0 120 48;" xml:space="preserve">
+<g id="f1_arrowTop">		 
+<path id="downArrow" style="fill:#58C5C7;" d="M117.5,0h-102c-1.1,0-2,0.9-2,2v30.5c0,1.1,0.9,2,2,2h46.3l1.3,2.9L67.7,48l4.6-10.6
+	l1.3-2.9h43.9c1.1,0,2-0.9,2-2V2C119.5,0.9,118.6,0,117.5,0z"/>
+<path id="leftArrow" style="fill:#58C5C7;" d="M117.5,0h-102c-1.1,0-2,0.9-2,2v8.6L10.4,12l-10.6,4.6l10.6,4.6l3.1,1.4v9.9
+	c0,1.1,0.9,2,2,2h102c1.1,0,2-0.9,2-2V2C119.5,0.9,118.6,0,117.5,0z"/>
+</g>
+</svg>

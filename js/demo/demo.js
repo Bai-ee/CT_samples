@@ -200,7 +200,30 @@ $(function() {
   // Buttons Hover Effect End
   // --------------------------------------------- //
 
+  function populateWags() {
+    document.getElementById('wags').src += ''
+  }
+  function populateEvian() {
+    document.getElementById('evian').src += ''
+  }
+  function populateOmaha() {
+    document.getElementById('omaha').src += ''
+  }
+  function populateLoft() {
+    document.getElementById('loft').src += ''
+  }
+  function populateSpace() {
+    document.getElementById('space').src += ''
+  }
 
+  wagsClick.addEventListener("click", populateWags);
+  evianClick.addEventListener("click", populateEvian);
+  omahaClick.addEventListener("click", populateOmaha);
+  loftClick.addEventListener("click", populateLoft);
+  spaceClick.addEventListener("click", populateSpace);
   
+  //iframe clicks
+
+
 
 });

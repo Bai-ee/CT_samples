@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <TITLE>Conversant</TITLE>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <script> var clickTag="https://www.walgreens.com/topic/promotion/rednoseday.jsp"</script>
+</HEAD>
+<body style="margin:0;padding:0;background-color:transparent">
+    <script type="text/javascript">
+        var CNVR = (function(){
+            var tmpProtocol = location.protocol || "http";
+            if (tmpProtocol.toLowerCase().indexOf("http") == -1){tmpProtocol = "https";}
+            if (tmpProtocol.indexOf(":") == -1){ tmpProtocol = tmpProtocol + ":"; }
+            var subDomain = "//";
+            var isSecure = false;
+            var uswebSubDomain = "//";
+            if (tmpProtocol.toLowerCase() == "https:"){
+                subDomain = subDomain + "secure.";
+                isSecure = true;
+                uswebSubDomain = uswebSubDomain + "s-";
+            }
+            return {
+                externalURL:tmpProtocol + uswebSubDomain + "usweb.dotomi.com/renderer",
+                isSecure:isSecure,
+                mplxPath:tmpProtocol + subDomain + "img-cdn.mediaplex.com/0/16542/219428/mplx.js",
+                ogo: tmpProtocol + uswebSubDomain + "usweb.dotomi.com/renderer/ogo.js?mojo"
+            }
+        })();
+        // CNVR.flashVars = "";
+        //    document.write('<scr'+'ipt type="text/javascript" src="'+CNVR.mplxPath+'"></sc'+'ript>');
+
+        CNVR.flashVars = (function () {
+            var arr = [];
+            var loc = location.href;
+            if (loc.indexOf("http") > -1 && (loc.indexOf("cfs-c01") > -1 || loc.indexOf("dtord01web02p") > -1)) {
+                loc = loc.substring(0, loc.lastIndexOf("/"));
+                arr.push({name: "company_id", value: loc});
+            }
+            /* START VARS */
+            arr.push({name:"mplx_clickOut", value:window.clickTag});
+
+            /* END VARS */
+            var tmp = "";
+            for (var i = 0; i < arr.length; i++) {
+                tmp = tmp + arr[i].name + "=" + encodeURIComponent(arr[i].value).replace(/'/g, "%27").replace(/"/g, "%22");
+                if (i + 1 < arr.length) {
+                    tmp = tmp + "&amp;"
+                }
+            }
+            if (tmp !== "") {
+                tmp = "&amp;" + tmp;
+            }
+            return tmp;
+        })();
+        CNVR.mplxPath = "";
+
+        document.write('<scr'+'ipt type="text/javascript" src="'+CNVR.mplxPath+'"></sc'+'ript>');
+
+
+    </script>
+
+   <div id="CNVR_call" style="width: 320px; height: 480px;">
+       <script type="text/javascript">
+           document.write('<scr'+'ipt type="text/javascript" src="'+ CNVR.ogo+'"></sc'+'ript>');
+       </script>
+     <script id="CNVR_script_call" type="text/javascript">
+        _$OGO$_.embed(
+                {
+                    "objectSrc": "mojo_320x480.js"+ '?ts=' + new Date().getTime(),
+                    "mediaWidth": 320,
+                    "mediaHeight": 480,
+                    "externalURL": CNVR.externalURL,
+                    "olickURL": [],
+                    "clickURL": [],
+                    "eventURL": "",
+                    "flashVars": "dtm_source=banner&amp;dtm_width=320&amp;dtm_height=480&amp;dtm_secure=" + CNVR.isSecure + CNVR.flashVars,
+                    "viewNotify": "",
+                    "embedId": "CNVR",
+                    "device_id": "",
+                    "impNotify": "",
+                    "clickable": true,
+                    "menuURL": "",
+                    "viewability_pixel": "",
+                    "cturl":""
+                }
+        );
+    </script>
+</div>
+</body>
+</HTML>
