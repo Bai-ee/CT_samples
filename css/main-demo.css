@@ -406,6 +406,19 @@ body {
   
 }
 
+#content_big {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  
+}
+
 iframe {
 /* margin: auto; */
 /* height: 100%; */

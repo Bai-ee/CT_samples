@@ -212,6 +212,13 @@ $(function() {
   function populateLoft() {
     document.getElementById('loft').src += ''
   }
+  function populateEditTrax() {
+    document.getElementById('edittrax').src += ''
+  }
+  function populateMazi() {
+    document.getElementById('mazi').src += ''
+  }
+
   function populateSpace() {
     document.getElementById('space').src += ''
   }
@@ -221,6 +228,8 @@ $(function() {
   omahaClick.addEventListener("click", populateOmaha);
   loftClick.addEventListener("click", populateLoft);
   spaceClick.addEventListener("click", populateSpace);
+  edittraxClick.addEventListener("click", populateEditTrax);
+  edittraxClick.addEventListener("click", populateMazi);
   
   //iframe clicks
 
