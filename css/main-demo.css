@@ -166,7 +166,7 @@
   width: 60px;
   height: 60px;
   opacity:1;
-  /* background: #f987d6; */
+  background: #f987d6;
   background: -webkit-gradient(linear, left top, right top, from(#6a47af), to(#f987d6));
   background: -moz-linear-gradient(left, #6a47af 0%, #f987d6 100%);
   background: -o-linear-gradient(left, #6a47af 0%, #f987d6 100%);
@@ -336,6 +336,13 @@ input::-moz-focus-inner {
   border: 0 !important;
 }
 
+p{
+text-align: block;
+
+
+
+}
+
 ::-moz-selection {
   background-color: rgba(106, 71, 175, 0.3);
   color: #ffffff;
@@ -394,6 +401,20 @@ body {
 }
 
 #content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+  
+}
+
+#content_top {
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -403,6 +424,7 @@ body {
     justify-content: center;
     align-content: center;
     align-items: center;
+
   
 }
 
@@ -545,9 +567,10 @@ h1 {
 .description__text {
   font: normal 300 1.7rem/1.6 "Poppins", sans-serif;
   color: #b3bbc3;
-  max-width: 400px;
-  margin: 0.4rem auto 0;
+  /* max-width: 70vw;
+  margin: 0.4rem auto 0; */
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .col {
@@ -556,6 +579,7 @@ h1 {
   align-content: center;
   align-items: center;
   justify-content: center;
+  /* max-width:1000px; */
 }
 
 @media only screen and (min-width: 768px) {
