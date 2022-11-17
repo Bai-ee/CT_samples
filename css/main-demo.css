@@ -125,7 +125,9 @@
 }
 
 
-
+a{
+  color: #D98BCF;
+}
 
 
 
@@ -562,7 +564,9 @@ h1 {
   max-width: 400px;
   margin: 0.4rem auto 0;
   margin-bottom: 40px;
+    margin-top: 40px;
 }
+
 
 .description__text {
   font: normal 300 1.7rem/1.6 "Poppins", sans-serif;
@@ -570,7 +574,20 @@ h1 {
   /* max-width: 70vw;
   margin: 0.4rem auto 0; */
   margin-bottom: 40px;
+  /* margin-top: 40px; */
+  flex-direction: column;
+}
+
+
+
+.head_description__text {
+  font: normal 300 1.7rem/1.6 "Poppins", sans-serif;
+  color: #b3bbc3;
+  /* max-width: 70vw;
+  margin: 0.4rem auto 0; */
+  margin-bottom: 40px;
   margin-top: 40px;
+  flex-direction: column;
 }
 
 .col {
