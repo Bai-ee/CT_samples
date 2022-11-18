@@ -413,6 +413,8 @@ body {
     align-content: center;
     align-items: center;
 
+  height:auto;
+  min-height: 100vh;
   
 }
 
@@ -466,6 +468,9 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  max-width:1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .overflow-hidden {
@@ -588,6 +593,9 @@ h1 {
   margin-bottom: 40px;
   margin-top: 40px;
   flex-direction: column;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .col {
